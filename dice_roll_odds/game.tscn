@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://cnwegl8jhe6ee"]
+
+[ext_resource type="PackedScene" uid="uid://btnab72j707xu" path="res://die.tscn" id="1_6wee8"]
+
+[node name="game" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(572, 329)
+
+[node name="AnimatedSprite2D" parent="." instance=ExtResource("1_6wee8")]
+position = Vector2(701, 489)
+
+[node name="AnimatedSprite2D2" parent="." instance=ExtResource("1_6wee8")]
+position = Vector2(372, 547)
+
+[node name="AnimatedSprite2D3" parent="." instance=ExtResource("1_6wee8")]
+position = Vector2(447, 337)
